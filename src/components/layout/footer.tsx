@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { FileUser,Github } from "lucide-react";
+export function Footer(){return <footer className="mt-16 border-t border-slate-200 bg-white"><div className="page-container flex flex-col items-center justify-between gap-4 py-8 text-sm text-slate-500 sm:flex-row"><p className="flex items-center gap-2"><FileUser size={18} className="text-blue-600"/> © {new Date().getFullYear()} Currículo Fácil</p><Link href="https://github.com/MandelPierre/CV-Builder" target="_blank" className="flex items-center gap-2 hover:text-blue-700"><Github size={18}/> Projeto no GitHub</Link></div></footer>;}
